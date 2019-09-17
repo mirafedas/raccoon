@@ -1,0 +1,17 @@
+.high-five-btn {
+  margin: 20px;
+  height: 50px;
+  width: 130px;
+  color: black;
+  background-color: white;
+  font-size: 25px;
+  border-color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  outline: none;
+}
+
+.high-five-btn:hover {
+  transform: scale(1.1);
+}
+

@@ -3,3 +3,9 @@ export const changeImage = imageIndex => {
   type: 'CHANGE_IMAGE',
   imageIndex
 }}
+
+export const changeBtnText = buttonTextIndex => {
+  return {
+  type: 'CHANGE_TEXT',
+  buttonTextIndex
+}}

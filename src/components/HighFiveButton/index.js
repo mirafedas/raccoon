@@ -1,9 +1,15 @@
 import React from 'react';
 import './style.css';
-import { changeBtnText } from '../../actions';
+import Button from '@material-ui/core/Button';
 
-const HighFiveButton = ({ changeImage, imageIndex, buttonText, buttonTextIndex }) => (
-  <button className="high-five-btn" onClick={() => changeImage(imageIndex + 1)}>{ changeBtnText({buttonText, buttonTextIndex}) }</button>
+const HighFiveButton = ({ changeImage, imageIndex }) => (
+  <Button 
+  color="secondary"
+  variant="outlined" 
+  className="high-five-btn"
+  onClick={() => changeImage(imageIndex + 1)}>
+  { imageIndex ? 'Go back' : "High five!" }
+  </Button>
 )
 
 export default HighFiveButton;

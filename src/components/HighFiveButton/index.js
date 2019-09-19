@@ -4,6 +4,7 @@ import Button from '@material-ui/core/Button';
 
 const HighFiveButton = ({ changeImage, imageIndex }) => (
   <Button 
+  id="toggle"
   color="secondary"
   variant="outlined" 
   className="high-five-btn"

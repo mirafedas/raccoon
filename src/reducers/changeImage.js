@@ -1,6 +1,6 @@
 const imgURLs = [
-  'high.jpg',
-  'images.jpg',
+  '../img/high.jpg',
+  '../img/images.jpg',
 ]
 
 const initialState = {

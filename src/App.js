@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import HighFiveButton from './components/HighFiveButton/index.js';
-import RaccoonImg from './components/RaccoonImg/index.js';
+import HighFiveButton from './containers/HighFiveButtonContainer.js';
+import RaccoonImg from './containers/imageContainer.js';
 
 function App() {
   return (
